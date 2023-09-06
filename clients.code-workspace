@@ -56,7 +56,8 @@
     "jest.jestCommandLine": "npx jest",
     "angular.enable-strict-mode-prompt": false,
     "typescript.preferences.importModuleSpecifier": "project-relative",
-    "javascript.preferences.importModuleSpecifier": "project-relative"
+    "javascript.preferences.importModuleSpecifier": "project-relative",
+    "nuxt.isNuxtApp": false
   },
   "extensions": {
     "recommendations": [

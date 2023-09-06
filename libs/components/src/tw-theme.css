@@ -7,9 +7,9 @@
   --color-background-alt3: 18 82 163;
   --color-background-alt4: 13 60 119;
 
-  --color-primary-300: 103 149 232;
-  --color-primary-500: 23 93 220;
-  --color-primary-700: 18 82 163;
+  --color-primary-300: 98 98 232;
+  --color-primary-500: 0 0 220;
+  --color-primary-700: 17 17 177;
 
   --color-secondary-100: 240 240 240;
   --color-secondary-300: 206 212 220;
@@ -160,7 +160,7 @@
 
 @import "./search/search.component.css";
 
-/** 
+/**
  * tw-break-words does not work with table cells:
  * https://github.com/tailwindlabs/tailwindcss/issues/835
  */
@@ -168,7 +168,7 @@ td.tw-break-words {
   overflow-wrap: anywhere;
 }
 
-/** 
+/**
  * tw-list-none hides summary arrow in Firefox & Chrome but not Safari:
  * https://github.com/tailwindlabs/tailwindcss/issues/924#issuecomment-915509785
  */
@@ -177,7 +177,7 @@ summary.tw-list-none::-webkit-details-marker {
   display: none;
 }
 
-/** 
+/**
  * Arbitrary values can't be used with `text-align`:
  * https://github.com/tailwindlabs/tailwindcss/issues/802#issuecomment-849013311
  */
